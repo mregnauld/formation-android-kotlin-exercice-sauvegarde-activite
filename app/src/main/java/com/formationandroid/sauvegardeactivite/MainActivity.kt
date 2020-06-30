@@ -41,9 +41,9 @@ class MainActivity : AppCompatActivity()
 		else
 		{
 			// initialisation si première exécution :
-			valeurDe1 = Random.Default.nextInt(VALEUR_DE_MAX) + VALEUR_DE_MIN
-			valeurDe2 = Random.Default.nextInt(VALEUR_DE_MAX) + VALEUR_DE_MIN
-			valeurDe3 = Random.Default.nextInt(VALEUR_DE_MAX) + VALEUR_DE_MIN
+			valeurDe1 = Random.nextInt(VALEUR_DE_MIN, VALEUR_DE_MAX + 1)
+			valeurDe2 = Random.nextInt(VALEUR_DE_MIN, VALEUR_DE_MAX + 1)
+			valeurDe3 = Random.nextInt(VALEUR_DE_MIN, VALEUR_DE_MAX + 1)
 		}
 
 		// affichage :
